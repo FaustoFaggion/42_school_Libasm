@@ -135,3 +135,20 @@ The aim of this project is to get familiar with assembly language.
     <li>Organiza seções e símbolos</li>
 </ul>
 
+
+## Nasm instructions
+
+### Seções e Segmentos de código
+
+<div style="display:flex">
+    <div style="flex:1;padding-right:10px;">
+        <img src="./section_segment.png" width="400" />      
+    </div>
+</div>
+
+<ul>
+    <li>Segmento - Bloco de dados passados para memória pelo Sistema Operacional.</li>
+    <li>Secão - Foarma de organizar os dados escritos no arquivo binário durante a ligação.</li>
+    <li>Podemos criar quantas seções quisermos, na ordem que quisermos e com nomes que quisermos</li>
+    <li>As *seções padrão* são aquelas que terão seus atributos configurados pelo assembler</li>
+</ul>
